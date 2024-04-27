@@ -17,4 +17,6 @@ Ce script s'utilise au sein d'un domaine Active Directory comprenant une Autorit
 
 ![image](https://github.com/Gapoly/AutoSign/assets/94485066/72e16644-cc3f-4158-983a-5e33f930e10d)
 
+![image](https://github.com/Gapoly/AutoSign/assets/94485066/0c045b46-a081-494f-a20e-1c484910308b)
+
 ![image](https://github.com/Gapoly/AutoSign/assets/94485066/6761ac82-8ffb-44d1-a1b6-bcf1955dc04c)
