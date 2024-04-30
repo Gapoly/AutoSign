@@ -2,6 +2,21 @@
 
 ## Description
 
+This PowerShell script allows you to automatically sign other PowerShell scripts.
+
+## Features
+
+- Sign a PowerShell script
+- Sign PowerShell scripts from a specified folder
+
+## Usage
+
+This script is used within an Active Directory domain including an Active Directory Certification Authority. The user must have a valid "Code Signing" certificate deployed within the domain in the Trusted Publishers store.
+
+---
+
+## Description
+
 Ce script PowerShell permet de signer automatiquement d'autres script PowerShell.
 
 ## Fonctionnalités
@@ -12,7 +27,8 @@ Ce script PowerShell permet de signer automatiquement d'autres script PowerShell
 ## Utilisation
 
 Ce script s'utilise au sein d'un domaine Active Directory comprenant une Autorité de Certification Active Directory. L'utilisateur doit avoir un certificat "Signature du Code" valide déployé au sein du domaine dans le magasin des éditeurs approuvés.
-## Captures d'écran
+
+## Screenshots / Captures d'écran
 
 ![image](https://github.com/Gapoly/AutoSign/assets/94485066/72e16644-cc3f-4158-983a-5e33f930e10d)
 
