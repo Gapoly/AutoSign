@@ -4,15 +4,16 @@ function Test-Admin {
     $currentUser = New-Object Security.Principal.WindowsPrincipal $([Security.Principal.WindowsIdentity]::GetCurrent())
     $currentUser.IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator)
 }
+# Créer une fonction pour voir si l'utilisateur est admin
 
 if ((Test-Admin) -eq $false)  {
     if ($elevated) {
-        # tried to elevate, did not work, aborting
     } else {
         Start-Process powershell.exe -Verb RunAs -ArgumentList ('-noprofile -file "{0}" -elevated' -f ($myinvocation.MyCommand.Definition))
     }
     exit
 }
+# Lance un prompt admin
 
 $CertCodeSigning = Get-ChildItem Cert:\CurrentUser\TrustedPublisher\ -CodeSigningCert
 # On prend le certificat apte à pouvoir signer des scripts
