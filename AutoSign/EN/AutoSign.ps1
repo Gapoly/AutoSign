@@ -46,6 +46,18 @@ exit
 #7: Un fichier dans un dossier spécifique
 #8: Tous les fichiers dans un dossier spécifique
 
+### Functions usage ###
+#1: File in the directory
+#2: All the files in the directory
+#3: File in a specific directory
+#4: All the files in a specific directory
+
+### Launch an admin prompt to sign scripts made by other users ###
+#5: File in the directory
+#6: All the files in the directory
+#7: File in a specific directory
+#8: All the files in a specific directory
+
 #9: Exit
 
 function fichier1{
