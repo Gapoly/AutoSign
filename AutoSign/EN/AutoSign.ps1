@@ -34,18 +34,6 @@ pause
 exit
 }
 
-### Les différentes fonctions ###
-#1: Un fichier se trouvant dans le dossier préciser
-#2: Tous les fichiers se trouvant dans le dossier préciser
-#3: Un fichier dans un dossier spécifique
-#4: Tous les fichiers dans un dossier spécifique
-
-### A partir de la ces options vont lancer un prompt admin pour pouvoir signer des scripts non écris par l'utilisateur ###
-#5: Un fichier se trouvant dans le dossier préciser
-#6: Tous les fichiers se trouvant dans le dossier préciser
-#7: Un fichier dans un dossier spécifique
-#8: Tous les fichiers dans un dossier spécifique
-
 ### Functions usage ###
 #1: File in the directory
 #2: All the files in the directory
